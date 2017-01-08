@@ -1,6 +1,5 @@
 $(document).ready(function() {
   
-
   $('#js-shopping-list-form').submit(function(event){
     var item=$('#shopping-list-entry').val()
     $('.shopping-list').append(
