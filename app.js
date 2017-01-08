@@ -1,9 +1,3 @@
-// document ready function 
-// onclick css strike through
-// onclick remove
-// click function append 
-// capture value of text input
-
 $(document).ready(function() {
   
 
@@ -23,7 +17,6 @@ $(document).ready(function() {
     event.preventDefault();
   }); 
 
-
     $(".shopping-list").on("click",".shopping-item-delete", function(event){
       $(this).closest("li").remove();
     });
@@ -31,6 +24,4 @@ $(document).ready(function() {
     $(".shopping-list").on("click",".shopping-item-toggle", function(event){
       $(this).closest("li").find(".shopping-item").toggleClass("shopping-item__checked");
     });
-
-
 });
